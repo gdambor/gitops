@@ -14,7 +14,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: harbor.run.haas-214.pez.pivotal.io/spring/spring-petclinic:b4.20200511.164435
+      - image: glenioborges/petclinic:b1.20201003.012824
         name: petclinic
         ports:
         - containerPort: 8080
